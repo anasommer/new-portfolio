@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <title>Ana Sommer | A Front-End Developer based in Oslo, Norway</title>
+
+    <meta
+      name="description"
+      content="Front end developer, HTML, CSS, JavaScript, React, Tailwind, based in Oslo, Norway. Interested in web design and web development and looking for new projects, can work remote."
+    />
+
+    <meta
+      name="keywords"
+      content="Ana Sommer, Anastassia Sommer, HTML, CSS, Bootrstrap, Tailwind, React, Vite, Javascript, JS, web design, Figma, web development, front end development, remote job, front end projects, cs50 web, cs50, full stack developer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- ***** Header ***** -->
+
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <span>Ana Sommer</span>
+          </h1>
+          <p>A Front-End Developer based in Oslo, Norway.</p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- ***** Work ***** -->
+
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Holidaze</h3>
+                <p>
+                  A final exam project at NorOff School of Technology where I
+                  studied fron end development. This web application facilitates
+                  accommodation bookings for holiday destinations. Can be used
+                  by users to book a stay and check own reservations and by
+                  venue managers, who can create/edit/delete/see bookings for
+                  the venues they own.
+                </p>
+                <ul class="work__list">
+                  <li>Figma</li>
+                  <li>HTML</li>
+                  <li>Tailwind</li>
+                  <li>Vite</li>
+                  <li>API</li>
+                  <li>React</li>
+                  <li>Zustand</li>
+                  <li>Yup</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://playful-paletas-69e26c.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/holidaze"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/holidaze.jpeg"
+                  class="work__image"
+                  alt="Holidaze project"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>eCom Store</h3>
+                <p>
+                  The NorOff Front End Frameworks project, built using React and
+                  Vite. It's designed as a showcase of React development skills,
+                  leveraging the fast build tool Vite for an optimized
+                  development experience. The project demonstrates
+                  component-based architecture, state management, and responsive
+                  design.
+                </p>
+                <ul class="work__list">
+                  <li>Figma</li>
+                  <li>React</li>
+                  <li>Vite</li>
+                  <li>Zustand</li>
+                  <li>API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://wondrous-daifuku-86d40f.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/fed-frameworks-ca"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/ecom-store.jpeg"
+                  class="work__image"
+                  alt="eCom Store Project"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Bid App</h3>
+                <p>
+                  Semester project at NorOff School. Bid app is a web
+                  application developed to facilitate bidding on items in
+                  real-time auctions. It provides a platform for users to place
+                  bids on various items dynamically.
+                </p>
+                <ul class="work__list">
+                  <li>Figma</li>
+                  <li>HTML</li>
+                  <li>SASS</li>
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                  <li>API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://celadon-frangipane-06b6b4.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/bid-app"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/bid.jpeg"
+                  class="work__image"
+                  alt="Bid app project"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Shopping List App</h3>
+                <p>
+                  Shopping list app, a bohhy project where I practicized working
+                  with Firebase. This project can be added as an app to the
+                  mobile and used by multiple users to handle shopping list.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Firebase</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://nimble-figolla-281367.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/react-dictionary"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/shopping-list.jpeg"
+                  class="work__image"
+                  alt="shopping list app"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Marathon Blog</h3>
+                <p>
+                  The project exam at NorOff School, the goal was to showcase
+                  the student's creative and technical knowledge and skills
+                  based on the first year curriculum, covering design
+                  principles, project management, communication technology,
+                  development with HTML/CSS, Javascript, WordPress, and REST
+                  API. The project aimed to create a blog site with a free
+                  design and topic choice.
+                </p>
+                <ul class="work__list">
+                  <li>Adobe xD</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>API</li>
+                  <li>Headless API/Wordpress</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://bucolic-seahorse-e6928d.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Noroff-FEU-Assignments/project-exam-1-anasommer"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/marathon-blog.jpeg"
+                  class="work__image"
+                  alt="marathon blog"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Weather App</h3>
+                <p>
+                  React Weather App is a simple yet powerful web application for
+                  checking current weather conditions and forecasts. It provides
+                  users with real-time weather updates for any location.
+                  Leveraging APIs such as OpenWeatherMap, React Weather App
+                  delivers accurate weather data and features a responsive
+                  design for seamless user experience.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>API</li>
+                  <li>Axios</li>
+                  <li>OpenWeather API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://optimistic-swirles-e144a4.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/react-weather-app"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/weather-app.jpeg"
+                  class="work__image"
+                  alt="react weather app"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Dictionary App</h3>
+                <p>
+                  React Dictionary is a dynamic web application designed for
+                  quickly searching word definitions. It offers users a fast and
+                  intuitive interface to look up definitions, synonyms, and
+                  examples. Leveraging the Merriam-Webster Dictionary API, React
+                  Dictionary provides accurate and comprehensive word
+                  information, with a responsive design for seamless user
+                  interaction.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>API</li>
+                  <li>Axios</li>
+                  <li>Merriam-Webster Dictionary API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://dazzling-ritchie-4c0a9f.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site<span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/react-dictionary"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/dictionary.jpeg"
+                  class="work__image"
+                  alt="dictionary app"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Portfolio</h3>
+                <p>
+                  My portfolio is a showcase of my work and skills as a Front
+                  End Developer. Developed using HTML, CSS, JavaScript, and
+                  React, it features a modern and responsive design. This
+                  portfolio highlights my projects, experience, and expertise,
+                  providing visitors with insight into my abilities and
+                  achievements in the field of web development.
+                </p>
+                <ul class="work__list">
+                  <li>Figma</li>
+                  <li>HTML</li>
+                  <li>Bootstrap</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://angry-engelbart-7c2db1.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/anasommer/portfolio"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/portfolio1.jpeg"
+                  class="work__image"
+                  alt="portfolio page"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Clients ***** -->
+      <!-- 
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                Hello! I'm Ana 👋🏻, a self-taught Front End Developer with a
+                passion for technology.
+              </p>
+              <p>
+                Skilled in HTML, CSS, Tailwind, Bootstrap, React, JavaScript,
+                and proficient in design tools like Figma and Adobe xD.
+              </p>
+              <p>
+                Now, armed with front end professional certificate from NorOff
+                School of Technology and front end development certificate from
+                Scrimba, I'm delving into full stack development.
+              </p>
+              <p>
+                Passionate about technology, dedicated to continuous growth, and
+                driven by a desire to make a positive impact — this is who I am,
+                and I'm excited to share my journey with you.
+              </p>
+
+              <a href="/resume.pdf" target="_blank" class="btn"
+                >Download My Resume</a
+              >
+            </div>
+
+            <div class="about__photo-container">
+              <img
+                class="about__photo"
+                src="./images/profile-picture.jpeg"
+                alt="profile picture of Ana Sommer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Are you looking for a fast-performing and user-friendly website to
+            represent your product or business? or looking for any kind of
+            consultation? or want to ask questions? or have some advice for me
+            or just want to say "Hi 👋🏻" in any case feel free to let me know. I
+            will do my best to respond back. 😊 The quickest way to reach out to
+            me is via an email.
+          </p>
+
+          <a href="mailto:anastassia.sommer@gmail.com" class="btn"
+            >anastassia.sommer@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/anasommer"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-link-item">
+            <a href="https://www.linkedin.com/in/anastassia-sommer-146409235">
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
+</html>
